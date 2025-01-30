@@ -27,7 +27,7 @@ Mobile.tap(findTestObject('Object Repository/Technossus/android.widget.Button - 
 
 Mobile.tap(findTestObject('Object Repository/Technossus/android.widget.EditText - Password'), 0)
 
-Mobile.sendKeys(findTestObject('Object Repository/Technossus/android.widget.EditText - Password'), 'Jaky@1471')
+Mobile.sendKeys(findTestObject('Object Repository/Technossus/android.widget.EditText - Password'), '')
 
 Mobile.tap(findTestObject('Object Repository/Technossus/android.widget.Button - Sign in'), 0)
 

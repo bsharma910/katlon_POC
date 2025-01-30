@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Test Suite For Technossus Mobile App" time="199.461" tests="4" failures="0" errors="0">
+   <testsuite name="Smoke Test Suite For Technossus Mobile App" tests="4" failures="0" errors="0" time="199.461" skipped="0" timestamp="29-01-2025T17:30:31" hostname="NeerajSharma(QA) - DESKTOP-EDC479L" id="Test Suites/Smoke Test Suite For Technossus Mobile App">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86_64 - Android 11)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="C:\\Users\\neeraj.sharma2\\Katalon Studio\\Mobile\\Reports\\20250129_173023\\Smoke Test Suite For Technossus Mobile App\\20250129_173023"/>
+         <property name="logFiles" value="C:\\Users\\neeraj.sharma2\\Katalon Studio\\Mobile\\Reports\\20250129_173023\\Smoke Test Suite For Technossus Mobile App\\20250129_173023\\appium.log, C:\\Users\\neeraj.sharma2\\Katalon Studio\\Mobile\\Reports\\20250129_173023\\Smoke Test Suite For Technossus Mobile App\\20250129_173023\\appium_error.log, C:\\Users\\neeraj.sharma2\\Katalon Studio\\Mobile\\Reports\\20250129_173023\\Smoke Test Suite For Technossus Mobile App\\20250129_173023\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="NeerajSharma(QA) - DESKTOP-EDC479L"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.15.0&quot;}}}"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.15.0"/>
+         <property name="deviceModel" value="Android SDK built for x86_64"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="deviceManufacturer" value="unknown"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86_64 - Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Verify the Login Funtionality" time="46.167" classname="Test Cases/Verify the Login Funtionality" status="PASSED">
+         <system-out><![CDATA[29-01-2025T17:30:32 - [TEST_CASE][PASSED] - Test Cases/Verify the Login Funtionality: Test Cases/Verify the Login Funtionality
+
+29-01-2025T17:30:32 - [TEST_STEP][PASSED] - startApplication("D:\Downloads\app-debug_v23_NFW.apk", true): Started application: 'D:\Downloads\app-debug_v23_NFW.apk'
+
+29-01-2025T17:30:32 - [MESSAGE][INFO] - Starting application: 'D:\Downloads\app-debug_v23_NFW.apk'
+
+29-01-2025T17:30:33 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+29-01-2025T17:30:44 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+29-01-2025T17:30:44 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\neeraj.sharma2\.appium
+
+29-01-2025T17:30:44 - [MESSAGE][INFO] - appium outlog: C:\Users\neeraj.sharma2\Katalon Studio\Mobile\Reports\20250129_173023\Smoke Test Suite For Technossus Mobile App\20250129_173023\appium.log
+
+29-01-2025T17:30:44 - [MESSAGE][INFO] - appium errlog: C:\Users\neeraj.sharma2\Katalon Studio\Mobile\Reports\20250129_173023\Smoke Test Suite For Technossus Mobile App\20250129_173023\appium_error.log
+
+29-01-2025T17:30:46 - [MESSAGE][INFO] - Appium server started on port 50,311
+
+29-01-2025T17:30:59 - [MESSAGE][PASSED] - Started application: 'D:\Downloads\app-debug_v23_NFW.apk'
+
+29-01-2025T17:30:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/New Folder/android.widget.EditText"), 0): Tapped on element 'Object Repository/New Folder/android.widget.EditText'
+
+29-01-2025T17:31:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:31:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/New Folder/android.widget.EditText'
+
+29-01-2025T17:31:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/New Folder/android.widget.EditText"), "neeraj.sharma2@technossus.com"): Send keys 'neeraj.sharma2@technossus.com' on test object 'Object Repository/New Folder/android.widget.EditText' successfully.
+
+29-01-2025T17:31:11 - [MESSAGE][PASSED] - Send keys 'neeraj.sharma2@technossus.com' on test object 'Object Repository/New Folder/android.widget.EditText' successfully.
+
+29-01-2025T17:31:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/New Folder (1)/android.widget.Button - Next"), 0): Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Next'
+
+29-01-2025T17:31:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:31:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Next'
+
+29-01-2025T17:31:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/New Folder (1)/android.widget.EditText - Password"), "Jaky@1471"): Send keys 'Jaky@1471' on test object 'Object Repository/New Folder (1)/android.widget.EditText - Password' successfully.
+
+29-01-2025T17:31:14 - [MESSAGE][PASSED] - Send keys 'Jaky@1471' on test object 'Object Repository/New Folder (1)/android.widget.EditText - Password' successfully.
+
+29-01-2025T17:31:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/New Folder (1)/android.widget.Button - Sign in"), 0): Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Sign in'
+
+29-01-2025T17:31:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:31:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Sign in'
+
+29-01-2025T17:31:15 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+29-01-2025T17:31:18 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Element Text on Reason Page" time="45.023" classname="Test Cases/Verify Element Text on Reason Page" status="PASSED">
+         <system-out><![CDATA[29-01-2025T17:31:18 - [TEST_CASE][PASSED] - Test Cases/Verify Element Text on Reason Page: Test Cases/Verify Element Text on Reason Page
+
+29-01-2025T17:31:18 - [TEST_STEP][PASSED] - startApplication("D:\Downloads\app-debug_v23_NFW.apk", true): Started application: 'D:\Downloads\app-debug_v23_NFW.apk'
+
+29-01-2025T17:31:18 - [MESSAGE][INFO] - Starting application: 'D:\Downloads\app-debug_v23_NFW.apk'
+
+29-01-2025T17:31:18 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+29-01-2025T17:31:24 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+29-01-2025T17:31:24 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\neeraj.sharma2\.appium
+
+29-01-2025T17:31:24 - [MESSAGE][INFO] - appium outlog: C:\Users\neeraj.sharma2\Katalon Studio\Mobile\Reports\20250129_173023\Smoke Test Suite For Technossus Mobile App\20250129_173023\appium.log
+
+29-01-2025T17:31:24 - [MESSAGE][INFO] - appium errlog: C:\Users\neeraj.sharma2\Katalon Studio\Mobile\Reports\20250129_173023\Smoke Test Suite For Technossus Mobile App\20250129_173023\appium_error.log
+
+29-01-2025T17:31:27 - [MESSAGE][INFO] - Appium server started on port 50,544
+
+29-01-2025T17:31:37 - [MESSAGE][PASSED] - Started application: 'D:\Downloads\app-debug_v23_NFW.apk'
+
+29-01-2025T17:31:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/New Folder/android.widget.EditText"), 0): Tapped on element 'Object Repository/New Folder/android.widget.EditText'
+
+29-01-2025T17:31:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:31:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/New Folder/android.widget.EditText'
+
+29-01-2025T17:31:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/New Folder/android.widget.EditText"), "neeraj.sharma2@technossus.com"): Send keys 'neeraj.sharma2@technossus.com' on test object 'Object Repository/New Folder/android.widget.EditText' successfully.
+
+29-01-2025T17:31:49 - [MESSAGE][PASSED] - Send keys 'neeraj.sharma2@technossus.com' on test object 'Object Repository/New Folder/android.widget.EditText' successfully.
+
+29-01-2025T17:31:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/New Folder (1)/android.widget.Button - Next"), 0): Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Next'
+
+29-01-2025T17:31:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:31:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Next'
+
+29-01-2025T17:31:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/New Folder (1)/android.widget.EditText - Password"), "Jaky@1471"): Send keys 'Jaky@1471' on test object 'Object Repository/New Folder (1)/android.widget.EditText - Password' successfully.
+
+29-01-2025T17:31:52 - [MESSAGE][PASSED] - Send keys 'Jaky@1471' on test object 'Object Repository/New Folder (1)/android.widget.EditText - Password' successfully.
+
+29-01-2025T17:31:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/New Folder (1)/android.widget.Button - Sign in"), 0): Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Sign in'
+
+29-01-2025T17:31:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:31:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Sign in'
+
+29-01-2025T17:31:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/android.view.View - Declaration"), "Declaration"): Actual text and expected text of test object 'Object Repository/android.view.View - Declaration' are matched.
+
+29-01-2025T17:32:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/android.view.View - Declaration' are matched.
+
+29-01-2025T17:32:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/android.view.View - Reason for Processing"), "Reason for Processing"): Actual text and expected text of test object 'Object Repository/android.view.View - Reason for Processing' are matched.
+
+29-01-2025T17:32:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/android.view.View - Reason for Processing' are matched.
+
+29-01-2025T17:32:01 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+29-01-2025T17:32:03 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify the Additional infromation" time="57.297" classname="Test Cases/Verify the Additional infromation" status="PASSED">
+         <system-out><![CDATA[29-01-2025T17:32:03 - [TEST_CASE][PASSED] - Test Cases/Verify the Additional infromation: Test Cases/Verify the Additional infromation
+
+29-01-2025T17:32:03 - [TEST_STEP][PASSED] - startApplication("D:\Downloads\app-debug_v23_NFW.apk", true): Started application: 'D:\Downloads\app-debug_v23_NFW.apk'
+
+29-01-2025T17:32:03 - [MESSAGE][INFO] - Starting application: 'D:\Downloads\app-debug_v23_NFW.apk'
+
+29-01-2025T17:32:03 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+29-01-2025T17:32:14 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+29-01-2025T17:32:14 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\neeraj.sharma2\.appium
+
+29-01-2025T17:32:14 - [MESSAGE][INFO] - appium outlog: C:\Users\neeraj.sharma2\Katalon Studio\Mobile\Reports\20250129_173023\Smoke Test Suite For Technossus Mobile App\20250129_173023\appium.log
+
+29-01-2025T17:32:14 - [MESSAGE][INFO] - appium errlog: C:\Users\neeraj.sharma2\Katalon Studio\Mobile\Reports\20250129_173023\Smoke Test Suite For Technossus Mobile App\20250129_173023\appium_error.log
+
+29-01-2025T17:32:17 - [MESSAGE][INFO] - Appium server started on port 50,782
+
+29-01-2025T17:32:27 - [MESSAGE][PASSED] - Started application: 'D:\Downloads\app-debug_v23_NFW.apk'
+
+29-01-2025T17:32:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/New Folder/android.widget.EditText"), 0): Tapped on element 'Object Repository/New Folder/android.widget.EditText'
+
+29-01-2025T17:32:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:32:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/New Folder/android.widget.EditText'
+
+29-01-2025T17:32:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/New Folder/android.widget.EditText"), "neeraj.sharma2@technossus.com"): Send keys 'neeraj.sharma2@technossus.com' on test object 'Object Repository/New Folder/android.widget.EditText' successfully.
+
+29-01-2025T17:32:42 - [MESSAGE][PASSED] - Send keys 'neeraj.sharma2@technossus.com' on test object 'Object Repository/New Folder/android.widget.EditText' successfully.
+
+29-01-2025T17:32:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/New Folder (1)/android.widget.Button - Next"), 0): Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Next'
+
+29-01-2025T17:32:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:32:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Next'
+
+29-01-2025T17:32:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/New Folder (1)/android.widget.EditText - Password"), "Jaky@1471"): Send keys 'Jaky@1471' on test object 'Object Repository/New Folder (1)/android.widget.EditText - Password' successfully.
+
+29-01-2025T17:32:46 - [MESSAGE][PASSED] - Send keys 'Jaky@1471' on test object 'Object Repository/New Folder (1)/android.widget.EditText - Password' successfully.
+
+29-01-2025T17:32:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/New Folder (1)/android.widget.Button - Sign in"), 0): Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Sign in'
+
+29-01-2025T17:32:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:32:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Sign in'
+
+29-01-2025T17:32:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/android.view.View - Declaration"), "Declaration"): Actual text and expected text of test object 'Object Repository/android.view.View - Declaration' are matched.
+
+29-01-2025T17:32:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/android.view.View - Declaration' are matched.
+
+29-01-2025T17:32:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/android.view.View - Reason for Processing"), "Reason for Processing"): Actual text and expected text of test object 'Object Repository/android.view.View - Reason for Processing' are matched.
+
+29-01-2025T17:32:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/android.view.View - Reason for Processing' are matched.
+
+29-01-2025T17:32:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.EditText"), 0): Tapped on element 'Object Repository/android.widget.EditText'
+
+29-01-2025T17:32:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:32:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.EditText'
+
+29-01-2025T17:32:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/android.widget.EditText"), "This is Just an Example"): Send keys 'This is Just an Example' on test object 'Object Repository/android.widget.EditText' successfully.
+
+29-01-2025T17:32:58 - [MESSAGE][PASSED] - Send keys 'This is Just an Example' on test object 'Object Repository/android.widget.EditText' successfully.
+
+29-01-2025T17:32:58 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+29-01-2025T17:33:00 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify navigation to the Facesearch page" time="50.392" classname="Test Cases/Verify navigation to the Facesearch page" status="PASSED">
+         <system-out><![CDATA[29-01-2025T17:33:00 - [TEST_CASE][PASSED] - Test Cases/Verify navigation to the Facesearch page: Test Cases/Verify navigation to the Facesearch page
+
+29-01-2025T17:33:01 - [TEST_STEP][PASSED] - startApplication("D:\Downloads\app-debug_v23_NFW.apk", true): Started application: 'D:\Downloads\app-debug_v23_NFW.apk'
+
+29-01-2025T17:33:01 - [MESSAGE][INFO] - Starting application: 'D:\Downloads\app-debug_v23_NFW.apk'
+
+29-01-2025T17:33:01 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+29-01-2025T17:33:06 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+29-01-2025T17:33:06 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\neeraj.sharma2\.appium
+
+29-01-2025T17:33:06 - [MESSAGE][INFO] - appium outlog: C:\Users\neeraj.sharma2\Katalon Studio\Mobile\Reports\20250129_173023\Smoke Test Suite For Technossus Mobile App\20250129_173023\appium.log
+
+29-01-2025T17:33:06 - [MESSAGE][INFO] - appium errlog: C:\Users\neeraj.sharma2\Katalon Studio\Mobile\Reports\20250129_173023\Smoke Test Suite For Technossus Mobile App\20250129_173023\appium_error.log
+
+29-01-2025T17:33:09 - [MESSAGE][INFO] - Appium server started on port 51,032
+
+29-01-2025T17:33:20 - [MESSAGE][PASSED] - Started application: 'D:\Downloads\app-debug_v23_NFW.apk'
+
+29-01-2025T17:33:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/New Folder/android.widget.EditText"), 0): Tapped on element 'Object Repository/New Folder/android.widget.EditText'
+
+29-01-2025T17:33:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:33:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/New Folder/android.widget.EditText'
+
+29-01-2025T17:33:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/New Folder/android.widget.EditText"), "neeraj.sharma2@technossus.com"): Send keys 'neeraj.sharma2@technossus.com' on test object 'Object Repository/New Folder/android.widget.EditText' successfully.
+
+29-01-2025T17:33:34 - [MESSAGE][PASSED] - Send keys 'neeraj.sharma2@technossus.com' on test object 'Object Repository/New Folder/android.widget.EditText' successfully.
+
+29-01-2025T17:33:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/New Folder (1)/android.widget.Button - Next"), 0): Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Next'
+
+29-01-2025T17:33:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:33:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Next'
+
+29-01-2025T17:33:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/New Folder (1)/android.widget.EditText - Password"), "Jaky@1471"): Send keys 'Jaky@1471' on test object 'Object Repository/New Folder (1)/android.widget.EditText - Password' successfully.
+
+29-01-2025T17:33:38 - [MESSAGE][PASSED] - Send keys 'Jaky@1471' on test object 'Object Repository/New Folder (1)/android.widget.EditText - Password' successfully.
+
+29-01-2025T17:33:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/New Folder (1)/android.widget.Button - Sign in"), 0): Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Sign in'
+
+29-01-2025T17:33:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:33:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/New Folder (1)/android.widget.Button - Sign in'
+
+29-01-2025T17:33:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/android.view.View - Declaration"), "Declaration"): Actual text and expected text of test object 'Object Repository/android.view.View - Declaration' are matched.
+
+29-01-2025T17:33:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/android.view.View - Declaration' are matched.
+
+29-01-2025T17:33:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/android.view.View - Reason for Processing"), "Reason for Processing"): Actual text and expected text of test object 'Object Repository/android.view.View - Reason for Processing' are matched.
+
+29-01-2025T17:33:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/android.view.View - Reason for Processing' are matched.
+
+29-01-2025T17:33:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.EditText"), 0): Tapped on element 'Object Repository/android.widget.EditText'
+
+29-01-2025T17:33:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:33:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.EditText'
+
+29-01-2025T17:33:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/android.widget.EditText"), "This is Just an Example"): Send keys 'This is Just an Example' on test object 'Object Repository/android.widget.EditText' successfully.
+
+29-01-2025T17:33:50 - [MESSAGE][PASSED] - Send keys 'This is Just an Example' on test object 'Object Repository/android.widget.EditText' successfully.
+
+29-01-2025T17:33:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/android.widget.Button - Proceed (1)"), 0): Element 'Object Repository/android.widget.Button - Proceed (1)' is visible
+
+29-01-2025T17:33:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:33:50 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.Button - Proceed (1)' is visible
+
+29-01-2025T17:33:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - Proceed (1)"), 0): Tapped on element 'Object Repository/android.widget.Button - Proceed (1)'
+
+29-01-2025T17:33:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-01-2025T17:33:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Proceed (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-01-2025T17:30:31 - [TEST_SUITE][PASSED] - Smoke Test Suite For Technossus Mobile App: Test Cases/Verify navigation to the Facesearch page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

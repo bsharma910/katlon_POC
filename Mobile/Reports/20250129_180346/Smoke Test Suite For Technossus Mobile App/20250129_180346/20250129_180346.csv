@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Test Suite For Technossus Mobile App,,,,29-01-2025 18:04:06,29-01-2025 18:09:30,5m - 23.710s,FAILED
+,,,,,,,
+Test Cases/Verify the Login Funtionality,,,,29-01-2025 18:04:06,29-01-2025 18:04:56,49.444s,PASSED
+"startApplication(""D:\Downloads\app-debug_v23_NFW.apk"", true)",,,,29-01-2025 18:04:07,29-01-2025 18:04:36,29.703s,PASSED
+"tap(findTestObject(""Object Repository/New Folder/android.widget.EditText""), 0)",,,,29-01-2025 18:04:36,29-01-2025 18:04:46,9.991s,PASSED
+"sendKeys(findTestObject(""Object Repository/New Folder/android.widget.EditText""), ""neeraj.sharma2@technossus.com"")",,,,29-01-2025 18:04:46,29-01-2025 18:04:48,1.516s,PASSED
+"tap(findTestObject(""Object Repository/New Folder (1)/android.widget.Button - Next""), 0)",,,,29-01-2025 18:04:48,29-01-2025 18:04:49,0.908s,PASSED
+"sendKeys(findTestObject(""Object Repository/New Folder (1)/android.widget.EditText - Password""), ""Jaky@1471"")",,,,29-01-2025 18:04:49,29-01-2025 18:04:52,2.949s,PASSED
+"tap(findTestObject(""Object Repository/New Folder (1)/android.widget.Button - Sign in""), 0)",,,,29-01-2025 18:04:52,29-01-2025 18:04:52,0.767s,PASSED
+closeApplication(),,,,29-01-2025 18:04:52,29-01-2025 18:04:56,3.413s,PASSED
+,,,,,,,
+Test Cases/Verify Element Text on Reason Page,,,,29-01-2025 18:04:56,29-01-2025 18:05:47,50.728s,PASSED
+"startApplication(""D:\Downloads\app-debug_v23_NFW.apk"", true)",,,,29-01-2025 18:04:56,29-01-2025 18:05:17,20.824s,PASSED
+"tap(findTestObject(""Object Repository/New Folder/android.widget.EditText""), 0)",,,,29-01-2025 18:05:17,29-01-2025 18:05:28,11.573s,PASSED
+"sendKeys(findTestObject(""Object Repository/New Folder/android.widget.EditText""), ""neeraj.sharma2@technossus.com"")",,,,29-01-2025 18:05:28,29-01-2025 18:05:30,1.525s,PASSED
+"tap(findTestObject(""Object Repository/New Folder (1)/android.widget.Button - Next""), 0)",,,,29-01-2025 18:05:30,29-01-2025 18:05:31,0.769s,PASSED
+"sendKeys(findTestObject(""Object Repository/New Folder (1)/android.widget.EditText - Password""), ""Jaky@1471"")",,,,29-01-2025 18:05:31,29-01-2025 18:05:34,3.042s,PASSED
+"tap(findTestObject(""Object Repository/New Folder (1)/android.widget.Button - Sign in""), 0)",,,,29-01-2025 18:05:34,29-01-2025 18:05:35,1.278s,PASSED
+"verifyElementText(findTestObject(""Object Repository/android.view.View - Declaration""), ""Declaration"")",,,,29-01-2025 18:05:35,29-01-2025 18:05:44,9.132s,PASSED
+"verifyElementText(findTestObject(""Object Repository/android.view.View - Reason for Processing""), ""Reason for Processing"")",,,,29-01-2025 18:05:44,29-01-2025 18:05:44,0.206s,PASSED
+closeApplication(),,,,29-01-2025 18:05:44,29-01-2025 18:05:47,2.233s,PASSED
+,,,,,,,
+Test Cases/Verify the Additional infromation,,,,29-01-2025 18:08:03,29-01-2025 18:08:46,42.449s,FAILED
+"startApplication(""D:\Downloads\app-debug_v23_NFW.apk"", true)",,,,29-01-2025 18:08:03,29-01-2025 18:08:16,12.139s,PASSED
+"tap(findTestObject(""Object Repository/New Folder/android.widget.EditText""), 0)",,,,29-01-2025 18:08:16,29-01-2025 18:08:29,13.345s,PASSED
+"sendKeys(findTestObject(""Object Repository/New Folder/android.widget.EditText""), ""neeraj.sharma2@technossus.com"")",,,,29-01-2025 18:08:29,29-01-2025 18:08:31,1.641s,PASSED
+"tap(findTestObject(""Object Repository/New Folder (1)/android.widget.Button - Next""), 0)",,,,29-01-2025 18:08:31,29-01-2025 18:08:31,0.800s,PASSED
+"sendKeys(findTestObject(""Object Repository/New Folder (1)/android.widget.EditText - Password""), ""Jaky@1471"")",,,,29-01-2025 18:08:31,29-01-2025 18:08:35,3.270s,PASSED
+"tap(findTestObject(""Object Repository/New Folder (1)/android.widget.Button - Sign in""), 0)",,,,29-01-2025 18:08:35,29-01-2025 18:08:36,1.257s,PASSED
+"verifyElementText(findTestObject(""Object Repository/android.view.View - Declaration""), ""Declaration"")",,,,29-01-2025 18:08:36,29-01-2025 18:08:44,8.260s,PASSED
+"verifyElementText(findTestObject(""Object Repository/android.view.View - Reason for Processing""), """")",,,,29-01-2025 18:08:44,29-01-2025 18:08:46,1.714s,FAILED
+,,,,,,,
+Test Cases/Verify navigation to the Facesearch page,,,,29-01-2025 18:08:46,29-01-2025 18:09:30,43.808s,PASSED
+"startApplication(""D:\Downloads\app-debug_v23_NFW.apk"", true)",,,,29-01-2025 18:08:46,29-01-2025 18:08:58,12.212s,PASSED
+"tap(findTestObject(""Object Repository/New Folder/android.widget.EditText""), 0)",,,,29-01-2025 18:08:58,29-01-2025 18:09:13,14.631s,PASSED
+"sendKeys(findTestObject(""Object Repository/New Folder/android.widget.EditText""), ""neeraj.sharma2@technossus.com"")",,,,29-01-2025 18:09:13,29-01-2025 18:09:13,0.284s,PASSED
+"tap(findTestObject(""Object Repository/New Folder (1)/android.widget.Button - Next""), 0)",,,,29-01-2025 18:09:13,29-01-2025 18:09:14,0.770s,PASSED
+"sendKeys(findTestObject(""Object Repository/New Folder (1)/android.widget.EditText - Password""), ""Jaky@1471"")",,,,29-01-2025 18:09:14,29-01-2025 18:09:17,3.054s,PASSED
+"tap(findTestObject(""Object Repository/New Folder (1)/android.widget.Button - Sign in""), 0)",,,,29-01-2025 18:09:17,29-01-2025 18:09:18,0.751s,PASSED
+"verifyElementText(findTestObject(""Object Repository/android.view.View - Declaration""), ""Declaration"")",,,,29-01-2025 18:09:18,29-01-2025 18:09:26,8.485s,PASSED
+"verifyElementText(findTestObject(""Object Repository/android.view.View - Reason for Processing""), ""Reason for Processing"")",,,,29-01-2025 18:09:26,29-01-2025 18:09:26,0.207s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.EditText""), 0)",,,,29-01-2025 18:09:26,29-01-2025 18:09:27,0.302s,PASSED
+"sendKeys(findTestObject(""Object Repository/android.widget.EditText""), ""This is Just an Example"")",,,,29-01-2025 18:09:27,29-01-2025 18:09:28,1.725s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/android.widget.Button - Proceed (1)""), 0)",,,,29-01-2025 18:09:28,29-01-2025 18:09:29,1.001s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - Proceed (1)""), 0)",,,,29-01-2025 18:09:29,29-01-2025 18:09:30,0.279s,PASSED

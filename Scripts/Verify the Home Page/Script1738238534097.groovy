@@ -21,7 +21,7 @@ Mobile.startApplication('D:\\Downloads\\app-debug_v23_NFW.apk', true)
 
 Mobile.tap(findTestObject('Object Repository/android.widget.EditText'), 0)
 
-Mobile.sendKeys(findTestObject('Object Repository/android.widget.EditText'), 'neeraj.sharma2@technossus.com')
+Mobile.sendKeys(findTestObject('Object Repository/android.widget.EditText'), '')
 
 Mobile.tap(findTestObject('Object Repository/Technossus/android.widget.Button - Next'), 0)
 
@@ -30,6 +30,16 @@ Mobile.tap(findTestObject('Object Repository/Technossus/android.widget.EditText 
 Mobile.sendKeys(findTestObject('Object Repository/Technossus/android.widget.EditText - Password'), 'Jaky@1471')
 
 Mobile.tap(findTestObject('Object Repository/Technossus/android.widget.Button - Sign in'), 0)
+
+Mobile.verifyElementText(findTestObject('Object Repository/android.view.View - Declaration'), 'Declaration')
+
+Mobile.verifyElementText(findTestObject('Object Repository/android.view.View - Reason for Processing'), 'Reason for Processing')
+
+Mobile.verifyElementText(findTestObject('Object Repository/android.view.View - Additional Information'), 'Additional Information')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Proceed'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Object Repository/android.view.View - Face Search'), 0)
 
 Mobile.closeApplication()
 

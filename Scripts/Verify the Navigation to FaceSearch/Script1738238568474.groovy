@@ -31,5 +31,15 @@ Mobile.sendKeys(findTestObject('Object Repository/Technossus/android.widget.Edit
 
 Mobile.tap(findTestObject('Object Repository/Technossus/android.widget.Button - Sign in'), 0)
 
+Mobile.verifyElementText(findTestObject('Object Repository/android.view.View - Declaration'), 'Declaration')
+
+Mobile.verifyElementText(findTestObject('Object Repository/android.view.View - Reason for Processing'), 'Reason for Processing')
+
+Mobile.verifyElementText(findTestObject('Object Repository/android.view.View - Additional Information'), 'Additional Information')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Proceed'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Object Repository/android.view.View - Face Search'), 0)
+
 Mobile.closeApplication()
 
